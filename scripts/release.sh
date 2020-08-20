@@ -1,7 +1,4 @@
-#!/bin/sh
-
-# 确保脚本抛出遇到的错误
-set -e
+#!/bin/bash
 
 current_version=$(grep '"version": ".*"' package.json | grep -oE "[0-9]+\.[0-9]+\.[0-9]+")
 printf "Current version is: $current_version\n"
@@ -21,17 +18,11 @@ git pull origin master
 if [ "$(uname)" == "Darwin" ]; then
   sed -i '' -e "s/\"version\": \".*\"/\"version\": \"$next_version\"/" package.json
   sed -i '' -e "s/current version: .*/current version: $next_version_v/" README.md
-  sed -i '' -e "s/version: .*/version: '$next_version_v',/" styleguide.config.js
-  sed -i '' -e "s/:TryMoka\/moka-email.*/:TryMoka\/moka-email#$next_version_v/" README.md
-  sed -i '' -e "s/__VERSION__ = '.*'/__VERSION__ = '$next_version_v'/" ./src/lib/HtmlEmailTemplate.js
 else
   sed -i'' -e "s/\"version\": \".*\"/\"version\": \"$next_version\"/" package.json
   sed -i'' -e "s/current version: .*/current version: $next_version_v/" README.md
-  sed -i'' -e "s/version: .*/version: '$next_version_v',/" styleguide.config.js
-  sed -i'' -e "s/:TryMoka\/moka-email.*/:TryMoka\/moka-email#$next_version_v/" README.md
-  sed -i'' -e "s/__VERSION__ = '.*'/__VERSION__ = '$next_version_v'/" ./src/lib/HtmlEmailTemplate.js
 fi
-
+# build source files
 npm run test
 
 # build source files
@@ -48,10 +39,8 @@ git add .
 git commit -m "Release version $next_version_v"
 git push origin master
 
-# publish release branch
-if git branch -D release; then
-  echo 'release delete succeed'
-fi
+# public release branch
+git branch -D release
 git checkout release
 
 for f in `ls dist`; do rm -rf ./$f; mv ./dist/$f .; done

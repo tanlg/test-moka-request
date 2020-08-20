@@ -1,6 +1,6 @@
 {
-  "name": "moka-request",
-  "version": "1.0.0",
+  "name": "test-moka-request",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -22,7 +22,8 @@
     "test:w": "jest --watch",
     "prebuild": "npm run lint && npm test",
     "microbundle": "microbundle --sourcemap=false",
-    "build": "sh ./scripts/build.sh"
+    "build": "sh ./scripts/build.sh",
+    "release": "sh ./scripts/release.sh"
   },
   "lingui": {
     "compileNamespace": "es",

@@ -1,4 +1,4 @@
-const getDefaultConfig = () => {
+export const getDefaultConfig = () => {
   const config = {
     loadingToast: () => {},
     successToast: () => {},
@@ -7,5 +7,3 @@ const getDefaultConfig = () => {
 
   return config;
 };
-
-export default getDefaultConfig;

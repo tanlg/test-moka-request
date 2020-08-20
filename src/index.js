@@ -8,7 +8,7 @@ import { getI18n } from './i18n';
 
 const i18n = getI18n();
 
-const globalConfig = getDefaultConfig();
+let globalConfig = getDefaultConfig();
 /**
  * A Promise-styled XHR util class powered by superagent ;)
  *
