@@ -1,6 +1,6 @@
 {
   "name": "test-moka-request",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -22,7 +22,7 @@
     "test:w": "jest --watch",
     "prebuild": "npm run lint && npm test",
     "microbundle": "microbundle --sourcemap=false",
-    "build": "sh ./scripts/build.sh",
+    "build": "NODE_ENV=production webpack --config webpack.config.js --mode production",
     "release": "sh ./scripts/release.sh"
   },
   "lingui": {
@@ -48,9 +48,10 @@
     "@lingui/cli": "^2.7.4",
     "@lingui/macro": "^2.7.4",
     "@lingui/react": "^2.7.4",
+    "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.1.0",
-    "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "^8.1.0",
     "babel-plugin-macros": "^2.8.0",
     "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",
