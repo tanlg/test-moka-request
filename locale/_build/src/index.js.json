@@ -1,0 +1,42 @@
+{
+  "操作": {
+    "origin": [
+      [
+        "src/index.js",
+        77
+      ]
+    ]
+  },
+  "中...": {
+    "origin": [
+      [
+        "src/index.js",
+        161
+      ]
+    ]
+  },
+  "成功": {
+    "origin": [
+      [
+        "src/index.js",
+        194
+      ]
+    ]
+  },
+  "失败": {
+    "origin": [
+      [
+        "src/index.js",
+        230
+      ]
+    ]
+  },
+  "：": {
+    "origin": [
+      [
+        "src/index.js",
+        230
+      ]
+    ]
+  }
+}

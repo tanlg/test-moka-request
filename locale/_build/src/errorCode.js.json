@@ -1,0 +1,1250 @@
+{
+  "未知错误": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        192
+      ],
+      [
+        "src/errorCode.js",
+        523
+      ]
+    ]
+  },
+  "成功": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        194
+      ],
+      [
+        "src/errorCode.js",
+        201
+      ]
+    ]
+  },
+  "需要登录才能进行该操作": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        196
+      ],
+      [
+        "src/errorCode.js",
+        206
+      ]
+    ]
+  },
+  "您的操作过于频繁，请耐心等待当前请求结束。": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        199
+      ]
+    ]
+  },
+  "参数错误": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        204
+      ],
+      [
+        "src/errorCode.js",
+        326
+      ]
+    ]
+  },
+  "登录失效": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        208
+      ]
+    ]
+  },
+  "用户权限不够，不能完成该操作": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        210
+      ]
+    ]
+  },
+  "账户已过期": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        212
+      ]
+    ]
+  },
+  "无法创建过去开始的叫号面试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        216
+      ]
+    ]
+  },
+  "找不到可用的面试申请": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        218
+      ]
+    ]
+  },
+  "面试开始后无法变更面试开始时间": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        220
+      ]
+    ]
+  },
+  "无法将面试开始时间修改为过去的时间": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        222
+      ]
+    ]
+  },
+  "面试开始后无法变更面试地点": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        224
+      ]
+    ]
+  },
+  "无法删除候选人": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        226
+      ]
+    ]
+  },
+  "面试开始后无法变更面试轮次": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        228
+      ]
+    ]
+  },
+  "面试开始后无法修改简历类型": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        230
+      ]
+    ]
+  },
+  "面试开始后无法删除已选房间": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        232
+      ]
+    ]
+  },
+  "当前场地已经被删除，请选择其他场地": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        234
+      ]
+    ]
+  },
+  "临时房间名称不能重名": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        236
+      ]
+    ]
+  },
+  "您已经在 {message} 签到就座": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        238
+      ]
+    ]
+  },
+  "面试官没有在房间中": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        240
+      ]
+    ]
+  },
+  "面试官没有该轮次": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        242
+      ]
+    ]
+  },
+  "该房间已经存在其他面试官": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        244
+      ]
+    ]
+  },
+  "不能把候选人移入面试中房间": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        246
+      ]
+    ]
+  },
+  "不能退出面试中的面试官": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        248
+      ]
+    ]
+  },
+  "队列不存在": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        250
+      ]
+    ]
+  },
+  "面试中的候选人不能更换面试官": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        252
+      ]
+    ]
+  },
+  "候选人不在队列中": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        254
+      ]
+    ]
+  },
+  "不能移动其他场次或轮次的候选人": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        256
+      ]
+    ]
+  },
+  "反馈创建叫号面试失败": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        258
+      ]
+    ]
+  },
+  "面试分组时间不能小于面试开始时": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        260
+      ]
+    ]
+  },
+  "当前叫号面试已经失效": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        262
+      ]
+    ]
+  },
+  "现场申请职位不能为空": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        264
+      ]
+    ]
+  },
+  "候选人不能为空": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        266
+      ]
+    ]
+  },
+  "现场叫号面试状态不匹配": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        268
+      ]
+    ]
+  },
+  "叫号面试现场申请时间不匹配": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        270
+      ]
+    ]
+  },
+  "叫号面试允许现场申请的职位不匹配": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        272
+      ]
+    ]
+  },
+  "本场叫号面试已存在相同职位下的申请": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        274
+      ]
+    ]
+  },
+  "检查候选人申请的职位是否存在相同职位的申请，并且其申请流程在第一个面试流程之后": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        276
+      ]
+    ]
+  },
+  "候选人其他职位正在处理中": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        278
+      ]
+    ]
+  },
+  "面试官重复出现": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        280
+      ]
+    ]
+  },
+  "多人面试数量设置异常": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        282
+      ]
+    ]
+  },
+  "多人面试状态修改异常，只可以在面试当前之前进行修改": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        284
+      ]
+    ]
+  },
+  "多人面试轮次获取异常，一个面试官只能存在一个轮次下": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        286
+      ]
+    ]
+  },
+  "获取反馈异常，反馈数据异常反馈模版数量不可大于1": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        288
+      ]
+    ]
+  },
+  "获取反馈异常，反馈数据异常": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        290
+      ]
+    ]
+  },
+  "面试中的候选人不能移动": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        292
+      ]
+    ]
+  },
+  "有候选人处于异常状态（被删除），已自动过滤": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        294
+      ]
+    ]
+  },
+  "房间名称不可重复": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        297
+      ]
+    ]
+  },
+  "房间不存在": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        299
+      ]
+    ]
+  },
+  "房间组名称不可重复": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        301
+      ]
+    ]
+  },
+  "房间组不存在": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        303
+      ]
+    ]
+  },
+  "该房间正在被叫号面试使用，不可删除": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        305
+      ]
+    ]
+  },
+  "该场地正在被叫号面试使用，不可删除": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        307
+      ]
+    ]
+  },
+  "您上传的文件表头与模版不匹配，请下载模版修改后重新上传": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        310
+      ]
+    ]
+  },
+  "您上传的文件存在数据错误，请下载文件并根据单元格批注内容修改后重新上传": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        312
+      ]
+    ]
+  },
+  "Excel中行数超长，Excel最多10000行": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        314
+      ]
+    ]
+  },
+  "Excel中候选人过多，最多限制500人导入": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        316
+      ]
+    ]
+  },
+  "导入候选人数据为空": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        318
+      ]
+    ]
+  },
+  "账号有效期失效，请稍后重试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        320
+      ]
+    ]
+  },
+  "系统错误": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        322
+      ]
+    ]
+  },
+  "账号无法获取候选人信息": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        324
+      ]
+    ]
+  },
+  "暂不支持拉勾或者智联外的方式": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        328
+      ]
+    ]
+  },
+  "已签到的面试官不允许删除": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        330
+      ]
+    ]
+  },
+  "轮次名称不可以为空": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        334
+      ]
+    ]
+  },
+  "轮次名称或英文名称不可以重复": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        336
+      ]
+    ]
+  },
+  "pdf渲染失败": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        338
+      ]
+    ]
+  },
+  "权重面试评价表模块计算类型必须全部是权重": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        340
+      ]
+    ]
+  },
+  "权重总和不是100": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        342
+      ]
+    ]
+  },
+  "权重表里的打分题，权重不能为空": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        344
+      ]
+    ]
+  },
+  "请确保打分题分值统一": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        346
+      ]
+    ]
+  },
+  "缺少职位Id": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        348
+      ]
+    ]
+  },
+  "找不到所选面试评价表，请刷新重试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        350
+      ]
+    ]
+  },
+  "找不到招聘模式": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        352
+      ]
+    ]
+  },
+  "找不到符合条件的面试记录": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        354
+      ]
+    ]
+  },
+  "面试官已填写反馈": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        356
+      ]
+    ]
+  },
+  "候选人没有参加面试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        358
+      ]
+    ]
+  },
+  "无效的面试反馈": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        360
+      ]
+    ]
+  },
+  "只有面试官才能填写面试反馈": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        362
+      ]
+    ]
+  },
+  "服务器错误，请重试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        364
+      ]
+    ]
+  },
+  "面试评价表模版已更新，请重试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        366
+      ]
+    ]
+  },
+  "预约面试不存在": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        369
+      ]
+    ]
+  },
+  "预约面试不可取消": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        371
+      ]
+    ]
+  },
+  "不可变更不可用场次的面试状态": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        373
+      ]
+    ]
+  },
+  "该场次已有候选人预约，请移动全部候选人后再禁用": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        375
+      ]
+    ]
+  },
+  "当前格子不存在": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        377
+      ]
+    ]
+  },
+  "不可变更已取消或锁定的预约面试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        379
+      ]
+    ]
+  },
+  "只可修改状态为未预约和已预约的预约面试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        381
+      ]
+    ]
+  },
+  "预约面试已截止": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        383
+      ]
+    ]
+  },
+  "只可修改状态为预约中的预约面试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        385
+      ]
+    ]
+  },
+  "修改次数已达到上限": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        387
+      ]
+    ]
+  },
+  "预约面试状态不可预约": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        389
+      ]
+    ]
+  },
+  "预约面试数据异常，缺少必要字段": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        391
+      ]
+    ]
+  },
+  "当前无可选时间": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        393
+      ]
+    ]
+  },
+  "当前组不存在": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        395
+      ]
+    ]
+  },
+  "预约面试申请不存在": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        397
+      ]
+    ]
+  },
+  "不可以移动候选人到禁用的场次": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        399
+      ]
+    ]
+  },
+  "目标场次已满员": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        401
+      ]
+    ]
+  },
+  "找不到归档原因": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        403
+      ]
+    ]
+  },
+  "预约面试已锁定": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        405
+      ]
+    ]
+  },
+  "服务调用异常": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        407
+      ]
+    ]
+  },
+  "预约面试关联表数据异常": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        409
+      ]
+    ]
+  },
+  "本次修改时间与已预约时间相同，无需变更": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        411
+      ]
+    ]
+  },
+  "面试官异常": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        413
+      ]
+    ]
+  },
+  "当前状态不能重新锁定预约面试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        415
+      ]
+    ]
+  },
+  "无法取消已经开始的视频叫号面试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        417
+      ]
+    ]
+  },
+  "绑定赛码数据异常": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        419
+      ]
+    ]
+  },
+  "调用赛码接口异常": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        421
+      ]
+    ]
+  },
+  "查询赛码面试结果异常": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        423
+      ]
+    ]
+  },
+  "赛码异步处理未完成": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        425
+      ]
+    ]
+  },
+  "赛码同步状态异常": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        427
+      ]
+    ]
+  },
+  "Offer模板不存在": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        431
+      ]
+    ]
+  },
+  "Offer模板名称不能为空": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        433
+      ]
+    ]
+  },
+  "Offer模板名称长度不能超过{message}个字符": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        435
+      ]
+    ]
+  },
+  "系统中已经有同名模板，请更改后再试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        437
+      ]
+    ]
+  },
+  "该模板为默认模板，无法删除": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        439
+      ]
+    ]
+  },
+  "未知模板类型": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        441
+      ]
+    ]
+  },
+  "Office模板暂不支持报错快照": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        443
+      ]
+    ]
+  },
+  "文件上传失败": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        445
+      ]
+    ]
+  },
+  "Offer自定义字段名称不能为空": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        447
+      ]
+    ]
+  },
+  "Offer自定义字段类型不能为空": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        449
+      ]
+    ]
+  },
+  "Offer自定义字段类型不合法": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        451
+      ]
+    ]
+  },
+  "Offer自定义字段名称过长": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        453
+      ]
+    ]
+  },
+  "Offer自定义字段名称不可重复": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        455
+      ]
+    ]
+  },
+  "无操作部门权限": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        457
+      ]
+    ]
+  },
+  "Offer审批进行中，不可修改": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        459
+      ]
+    ]
+  },
+  "Offer审批不在审批中": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        461
+      ]
+    ]
+  },
+  "Offer审批已进行，不可设置审批流程": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        463
+      ]
+    ]
+  },
+  "Offer审批流模版不存在": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        465
+      ]
+    ]
+  },
+  "Offer审批进行中，不可取消": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        467
+      ]
+    ]
+  },
+  "存在不合法的offer审批状态": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        469
+      ]
+    ]
+  },
+  "Offer已审批": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        471
+      ]
+    ]
+  },
+  "不支持的Offer审批阶段": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        473
+      ]
+    ]
+  },
+  "审批人已审批完成": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        475
+      ]
+    ]
+  },
+  "Offer中职位信息为空": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        477
+      ]
+    ]
+  },
+  "后续操作失败": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        481
+      ]
+    ]
+  },
+  "职位选择错误": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        483
+      ]
+    ]
+  },
+  "职位不存在!": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        485
+      ]
+    ]
+  },
+  "读取猎头公司设置失败!": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        487
+      ]
+    ]
+  },
+  "获取配置信息失败": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        489
+      ]
+    ]
+  },
+  "获取职位信息失败": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        491
+      ]
+    ]
+  },
+  "获取渠道信息失败": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        493
+      ]
+    ]
+  },
+  "清除候选人token失败": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        495
+      ]
+    ]
+  },
+  "候选人处于保护期": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        497
+      ]
+    ]
+  },
+  "职位已关闭": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        499
+      ]
+    ]
+  },
+  "找不到猎头合同或合同已失效/禁用": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        501
+      ]
+    ]
+  },
+  "获取猎头渠道信息失败": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        503
+      ]
+    ]
+  },
+  "候选人职位不统一": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        505
+      ]
+    ]
+  },
+  "初筛阶段不存在": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        507
+      ]
+    ]
+  },
+  "数据导出上限为1w条，如需导出更多请联系CSM": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        510
+      ]
+    ]
+  },
+  "当前用户还有下载任务没有处理完成，请稍后重试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        512
+      ]
+    ]
+  },
+  "当前用户下面存在名称相同的人才地图配置": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        514
+      ]
+    ]
+  },
+  "当前用户下面不存在该人才地图配置": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        518
+      ]
+    ]
+  },
+  "该人才地图配置与当前节点的不存在对应关系，请检查后重试": {
+    "origin": [
+      [
+        "src/errorCode.js",
+        520
+      ]
+    ]
+  }
+}
