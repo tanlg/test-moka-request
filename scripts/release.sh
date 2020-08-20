@@ -28,9 +28,6 @@ npm run test
 # build source files
 npm run build
 
-# genderate doc pages
-npm run doc
-
 # publish master branch
 cp package.json dist/
 cp package-lock.json dist/
